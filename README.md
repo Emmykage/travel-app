@@ -1,4 +1,4 @@
-## MeliSport-Tennis Store
+## Travel-App
 
 Travel-App Helps users and tourists around the capital city of Nigeria
 
