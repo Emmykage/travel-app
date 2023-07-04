@@ -1,72 +1,104 @@
-# Getting Started with Create React App
+## MeliSport-Tennis Store
 
-install AOS library
+Travel-App Helps users and tourists around the capital city of Nigeria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-This app has been solely and entirely built by myself
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- React
+- Redux
+- AOS Library 
 
-### `npm start`
+## Live Demo & Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> [Travel-App](https://bright-gecko-6f953b.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<table>
+<tr>
+<td><img src="/src/assets/images/melisports_home.PNG" alt="Home page"></td>
+<td><img src="src/assets/images/melisport_products.PNG " alt="Product details page"></td>
+<td><img src="src/assets/images/melisport_adminPage.PNG" alt="admin page"></td>
+</tr>
+</table>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Any web browser (e.g. Google Chrome)
+- Any Code Editor (e.g. Vscode)
+- 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setup
 
-### `npm run eject`
+- Create a new folder.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+mkdir folder
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Move to the folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd folder
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Clone the repo:
 
-## Learn More
+```bash
+git clone https://github.com/Emmykage/travel-app.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Install the dependencies:
 
-### Code Splitting
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Usage
 
-### Analyzing the Bundle Size
+- Start a live development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm start
+```
 
-### Making a Progressive Web App
+### Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Run tests:
 
-### Advanced Configuration
+```
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Authors
 
-### Deployment
+## 👤 Menanya Morris
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub: [@emmykage](https://github.com/emmykage)
+- Twitter: [@emmykage](https://twitter.com/mennydev)
+- LinkedIn: [Menanya Morris](https://www.linkedin.com/in/morris-menanya-a51985104/)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Original design idea by: [Murat Korkmaz](https://www.behance.net/muratk)
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
