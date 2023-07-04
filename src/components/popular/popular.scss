@@ -176,16 +176,56 @@
     }
 }
 @media screen and (min-width: 480px){
-    .home{
+    .popular{
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 556px){
+    .popular{
         .secContainer{
-            .homeCard{
-                bottom: -100px;
-                width: 90%;
-                grid-template-columns: repeat(2, 1fr);
-                .btn{
-                    transform: translateY(15px);
+            .secHeader{
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .textDiv{
+                    text-align: start;
+                    max-width: 70%;
+                }
+                .iconsDiv{
+                    justify-content: flex-end;
                 }
             }
         }
+        padding-top: 10rem;
     }
+}
+@media screen and (min-width: 720px){
+    .popular{
+        padding-top: 7rem ;
+        }
+}
+@media screen and (min-width: 1024px){
+    .popular{
+        padding-top: 10rem ;
+
+        .secContainer{
+            .secHeader{
+                .textDiv{
+                    .secTitle{
+                        font-size: 2.3rem;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .mainContent{
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1.5rem !important;
+            }
+        }
+        }
 }

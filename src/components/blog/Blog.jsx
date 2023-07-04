@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {  BsArrowRightShort } from "react-icons/bs"
 import img from '../../Assets/forest_house.jpg'
 
 import './blog.scss'
+import Aos from 'aos'
+
+import 'aos/dist/aos.css'
 
 const Posts =[{
     id: 1,
@@ -29,15 +32,18 @@ const Posts =[{
 }]
 
 const Blog = () => {
+    useEffect(()=> {
+        Aos.init({duration: 2000})
+    },[])
   return (
     <section className='blog container section'>B
     <div className="setContainer">
         <div className="secIntro">
-            <h2 className="secTitle">
+            <h2 data-aos="fade-up" data-aos-duration="2000" className="secTitle">
 
                 Our Best Blog
             </h2>
-            <p>
+            <p data-aos="fade-up" data-aos-duration="2500">
                 An insight to the incredible experience in the world
 
             </p>
@@ -45,20 +51,20 @@ const Blog = () => {
         <div className="mainContainer grid">
             {
                 Posts.map(({id, postImage, title, desc})=> (
-                    <div key={id} className="singlePost grid">
+                    <div data-aos="fade-up" data-aos-duration="2000" key={id} className="singlePost grid">
                 <div className="imgDiv">
                     <img src={postImage} alt="image name" />
                 </div>
-                <div className="postDetails">
+                <div data-aos="fade-up" data-aos-duration="3000" className="postDetails">
                     <h3>
                         {title}
                     </h3>
-                    <p>
+                    <p data-aos="fade-up" data-aos-duration="4000">
                         {desc}
                     </p>
 
                 </div>
-                <a href="" className='flex'>
+                <a href="" className='flex' data-aos="fade-up" data-aos-duration="4000">
                 Read More
 
                     <BsArrowRightShort className='icon'/>

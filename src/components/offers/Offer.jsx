@@ -1,5 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './offer.scss'
+
+import Aos from 'aos'
+
+import 'aos/dist/aos.css'
  
 import { BsArrowRight } from 'react-icons/bs'
 import {MdAirportShuttle, MdBathtub, MdKingBed, MdLocationOn} from "react-icons/md"
@@ -38,10 +42,13 @@ const offers = [{
 
 }]
 const Offer = () => {
+    useEffect(()=> {
+        Aos.init({duration: 2000})
+    },[])
   return (
     <section className='offer container section'>
         <div className="secContainer">
-            <div className="secIntro">
+            <div data-aos="fade-up" data-aos-duration="2000" className="secIntro">
                 <h2 className="secTitle">
                     Special Offers
                 </h2>
@@ -53,7 +60,7 @@ const Offer = () => {
             <div className="mainContent grid">
                 {
                     offers.map(({id, imgSrc, setTitle, location, price})=> (
-                        <div className="singleOffer">
+                        <div data-aos="fade-up" data-aos-duration="2000" className="singleOffer">
                     <div className="destImage">
                         <img src={imgSrc} alt="image name" />
                         <span className='discount'>
