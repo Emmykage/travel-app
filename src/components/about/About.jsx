@@ -21,21 +21,21 @@ const About = () => {
 
         <div className="mainContent container grid">
           <div data-aos="fade-up" data-aos-duration="2000" className="singleItem">
-            <img src={img1} alt="" />
+            <img src={img1} alt="mountain" />
             <h3>100+ Mountains</h3>
             <p>
               Research shows that a chance to break away from the normal rhythms of daily life reduces stress and improves health and well-being
             </p>
           </div>
           <div data-aos="fade-up" data-aos-duration="2500" className="singleItem">
-            <img src={img2} alt="" />
+            <img src={img2} alt="customer" />
             <h3>2000+ Customer</h3>
             <p>
               Research shows that a chance to break away from the normal rhythms of daily life reduces stress and improves health and well-being
             </p>
           </div>
           <div data-aos="fade-up" data-aos-duration="3000" className="singleItem">
-            <img src={img3} alt="" />
+            <img src={img3} alt="scouting" />
             <h3>1000+ Hiking</h3>
             <p>
               Research shows that a chance to break away from the normal rhythms of daily life reduces stress and improves health and well-being

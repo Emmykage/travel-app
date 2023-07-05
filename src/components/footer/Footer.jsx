@@ -17,8 +17,7 @@ const Footer = () => {
                 <div data-aos="fade-up" data-aos-duration="2000" className="footerLogo">
                     <a className="logo flex">
                         <h1  className='flex'>
-
-                           
+                                                      
                             <SiYourtraveldottv className="icon"/>
                             Dot
                             </h1>

@@ -179,7 +179,7 @@
                 }
                 .loginBtn{
                     background: none;
-                    border: var(--PrimaryColor);
+                    border: 1px solid var(--PrimaryColor);
 
                     &:hover{
                         background: var(--PrimaryColor);

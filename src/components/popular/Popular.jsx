@@ -1,47 +1,49 @@
 import React, { useEffect } from 'react'
 import "./popular.scss"
 import {BsArrowLeftShort, BsArrowRightShort, BsDot} from "react-icons/bs"
-import img from "../../Assets/boy_voyage.jpg"
-import img2 from "../../Assets/beautiful-tropical-beach-sea-with-umbrella-chair-around-swimming-pool-hotel-resort-travel-vacattion.avif"
-import img3 from "../../Assets/14029416-illustration-of-palm-trees-on-desert-island.webp"
-import img4 from "../../Assets/forest_house.jpg"
+import img from "../../Assets/ddubai.jpg"
+import img2 from "../../Assets/kenya_life.jpg"
+import img3 from "../../Assets/argentina_mountains.jpg"
+import img4 from "../../Assets/washington.jpg"
+import img5 from "../../Assets/forest_house.jpg"
+
 import Aos from 'aos'
 
 import 'aos/dist/aos.css'
 const Data = [{
     id:1,
-    imgSrc: img2,
+    imgSrc: img,
     destTitle: 'Dubai',
-    location: 'Peru',
-    grade: "Cultural Relax"
+    location: 'United Arab Emirates',
+    grade: "Recreation and Shopping"
 },
 {
     id:2,
     imgSrc: img2,
-    destTitle: 'Dubai',
-    location: 'Peru',
-    grade: "Cultural Relax"
+    destTitle: 'Nairobi',
+    location: 'Kenya',
+    grade: "Cultural and Wild Live"
 },
 {
     id:3,
-    imgSrc: img,
-    destTitle: 'Dubai',
-    location: 'Peru',
-    grade: "Cultural Relax"
+    imgSrc: img3,
+    destTitle: 'Buenos Aires',
+    location: 'Argentina',
+    grade: "Nature and Tourism"
 },
 {
     id:4,
     imgSrc: img4,
-    destTitle: 'Dubai',
+    destTitle: 'Wahington DC',
     location: 'Peru',
-    grade: "Cultural Relax"
+    grade: "Tourism Relax"
 },
 {
-    id:1,
-    imgSrc: img2,
-    destTitle: 'Dubai',
-    location: 'Peru',
-    grade: "Cultural Relax"
+    id:5,
+    imgSrc: img5,
+    destTitle: 'Abuja',
+    location: 'Nigeria',
+    grade: "Cultural"
 }]
 
 const Popular = () => {
