@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import "./popular.scss"
 import {BsArrowLeftShort, BsArrowRightShort, BsDot} from "react-icons/bs"
-import img from "../../Assets/ddubai.jpg"
+import img from "../../Assets/dubai.jpg"
 import img2 from "../../Assets/kenya_life.jpg"
 import img3 from "../../Assets/argentina_mountains.jpg"
 import img4 from "../../Assets/washington.jpg"
