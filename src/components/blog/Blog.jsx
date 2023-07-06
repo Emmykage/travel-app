@@ -53,7 +53,7 @@ const Blog = () => {
                 Posts.map(({id, postImage, title, desc})=> (
                     <div data-aos="fade-up" data-aos-duration="2000" key={id} className="singlePost grid">
                 <div className="imgDiv">
-                    <img src={postImage} alt="image name" />
+                    <img src={postImage} alt={postImage} />
                 </div>
                 <div data-aos="fade-up" data-aos-duration="3000" className="postDetails">
                     <h3>
@@ -64,7 +64,7 @@ const Blog = () => {
                     </p>
 
                 </div>
-                <a href="" className='flex' data-aos="fade-up" data-aos-duration="4000">
+                <a href="#" className='flex' data-aos="fade-up" data-aos-duration="4000">
                 Read More
 
                     <BsArrowRightShort className='icon'/>
