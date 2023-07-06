@@ -65,10 +65,10 @@ const Offer = () => {
             </div>
             <div className="mainContent grid">
                 {
-                    offers.map(({id, imgSrc, destTitle, location, price})=> (
+                    offers.map(({id, imgSrc, destTitle, price})=> (
                         <div data-aos="fade-up" data-aos-duration="2000" className="singleOffer" key={id}>
                     <div className="destImage">
-                        <img src={imgSrc} alt="image name" />
+                        <img src={imgSrc} alt={imgSrc} />
                         <span className='discount'>
                             30% Off
                         </span>
