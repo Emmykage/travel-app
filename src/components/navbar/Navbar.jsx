@@ -32,23 +32,23 @@ const Navbar = () => {
             <div className={active}>
                 <ul className="navLists flex">
                     <li className="navItem">
-                        <a href="#" className="navLink">Home</a>
+                        <a href="#Home" className="navLink">Home</a>
                     </li>
                     <li className="navItem">
-                        <a href="#" className="navLink">Products</a>
+                        <a href="#Products" className="navLink">Products</a>
                     </li> <li className="navItem">
-                        <a href="#" className="navLink">Resources</a>
+                        <a href="#Resources" className="navLink">Resources</a>
                     </li> <li className="navItem">
-                        <a href="#" className="navLink">Contact</a>
+                        <a href="#Contact" className="navLink">Contact</a>
                     </li> <li className="navItem">
-                        <a href="#" className="navLink">Blog</a>
+                        <a href="Blog" className="navLink">Blog</a>
                     </li>
                     <div className="headerBtns flex">
                         <button className="btn loginBtn">
-                            <a href="#">Login</a>
+                            <a href="#login">Login</a>
                         </button>
                     <button className="btn ">
-                        <a href="#">Sign up</a>
+                        <a href='#sign_up'>Sign up</a>
                     </button>
                     </div>
                 </ul>

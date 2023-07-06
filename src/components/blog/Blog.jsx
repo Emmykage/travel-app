@@ -64,7 +64,7 @@ const Blog = () => {
                     </p>
 
                 </div>
-                <a href="#" className='flex' data-aos="fade-up" data-aos-duration="4000">
+                <a href="#btn" className='flex' data-aos="fade-up" data-aos-duration="4000">
                 Read More
 
                     <BsArrowRightShort className='icon'/>
