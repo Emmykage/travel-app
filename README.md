@@ -12,13 +12,12 @@ Travel-App Helps users and tourists around the capital city of Nigeria
 
 ## Live Demo & Screenshots
 
-> [Travel-App](https://bright-gecko-6f953b.netlify.app/)
+> [Travel-App](https://deluxe-snickerdoodle-3de43c.netlify.app/)
 
 <table>
 <tr>
-<td><img src="/src/assets/images/melisports_home.PNG" alt="Home page"></td>
-<td><img src="src/assets/images/melisport_products.PNG " alt="Product details page"></td>
-<td><img src="src/assets/images/melisport_adminPage.PNG" alt="admin page"></td>
+<td><img src="/src/assets/travel-app.png" alt="Home page"></td>
+<td><img src="src/assets/travel-app-body.png" alt="Product details page"></td>
 </tr>
 </table>
 
