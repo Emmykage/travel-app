@@ -5,7 +5,8 @@ import img from "../../Assets/dubai.jpg"
 import img2 from "../../Assets/kenya_life.jpg"
 import img3 from "../../Assets/argentina_mountains.jpg"
 import img4 from "../../Assets/washington.jpg"
-import img5 from "../../Assets/forest_house.jpg"
+// import img5 from "../../Assets/forest_house.jpg"
+import img5 from "../../Assets/abuja.webp"
 
 import Aos from 'aos'
 
@@ -70,14 +71,14 @@ const Popular = () => {
             </div>
             <div data-aos="fade-up" className="mainContent grid">
                 {
-                    Data.map((data)=>(
+                    Data.map(({imgSrc, grade, location, destTitle})=>(
                         <div className="singleDestination">
                         <div className="destImage">
-                            <img src={data.imgSrc} alt="" />
+                            <img src={imgSrc} alt="" />
                             <div className="overlayInfo">
-                                <h3>Some text</h3>
+                                <h3>{destTitle}</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consect
+                                    {grade}
                                 </p>
                                 <BsArrowRightShort className='icon'/>
                             </div>
@@ -88,7 +89,7 @@ const Popular = () => {
                                 01
                             </div>
                             <div className="destText flex">
-                                <h6>london</h6>
+                                <h6>{location}</h6>
                                 <span className='flex'>
                                     <span className="dot">
                                         <BsDot className='icon'/>
