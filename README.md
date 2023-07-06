@@ -16,8 +16,8 @@ Travel-App Helps users and tourists around the capital city of Nigeria
 
 <table>
 <tr>
-<td><img src="/src/assets/travel-app.png" alt="Home page"></td>
-<td><img src="src/assets/travel-app-body.png" alt="Product details page"></td>
+<td><img src="/src/Assets/travel-app.png" alt="Home page"></td>
+<td><img src="src/Assets/travel-app-body.png" alt="section details page"></td>
 </tr>
 </table>
 
